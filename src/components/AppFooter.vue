@@ -32,4 +32,10 @@ export default {
         color:#fff;
     }
 }
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 </style>
